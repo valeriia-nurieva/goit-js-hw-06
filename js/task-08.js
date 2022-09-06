@@ -15,7 +15,7 @@ function onFormSubmit(event) {
     if (mail === '' || password === '') {
         alert('Please fill in all the fields!');
     } else {
-    console.log(formData);
-    event.currentTarget.reset();
+        console.log(formData);
+        event.currentTarget.reset();
     };
 };
